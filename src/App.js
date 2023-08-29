@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route index path="/router" element={<Wearbetter />} />
+        <Route index path="/router/" element={<Wearbetter />} />
         <Route path="/router/collections" element={<Main />} />
       </Routes>
     </div>
