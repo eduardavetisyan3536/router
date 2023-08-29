@@ -9,8 +9,8 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route index path="/" element={<Wearbetter />} />
-        <Route path="collections" element={<Main />} />
+        <Route index path="/router" element={<Wearbetter />} />
+        <Route path="/router/collections" element={<Main />} />
       </Routes>
     </div>
   );

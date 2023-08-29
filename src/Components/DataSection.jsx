@@ -1,6 +1,4 @@
 import React from 'react'
-
-// import DataAppend from './DataAppend'
 import './data.css'
 
 const DataSection = () => {

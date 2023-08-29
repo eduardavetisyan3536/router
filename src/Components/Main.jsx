@@ -10,7 +10,7 @@ function Main() {
   return (
     <div className="container">
       <div className="topSection">
-        <p className="home" onClick={() => navigate('/') }>Home</p>
+        <p className="home" onClick={() => navigate('/router') }>Home</p>
         <p className="Collections">/ Collections</p>
       </div>
       <div className="flexSections">
