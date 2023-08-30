@@ -7,7 +7,7 @@ const DataSection = () => {
       <div className="dataSection">
             <div className="dataFilters">
             <p>Collections</p>
-            <select id="price" onChange={'handlechange'}>
+            <select id="price">
                 <option value="Default">Default</option>
                 <option value="High">Price: High to Low</option>
                 <option value="Low">Price: Low to High</option>

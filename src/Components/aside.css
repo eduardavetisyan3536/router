@@ -49,6 +49,7 @@ label {
   display: flex;
 }
 .topSection {
+  width: 100%;
   background-color: #f4f4f4;
   margin: 0 20px;
   padding: 10px;

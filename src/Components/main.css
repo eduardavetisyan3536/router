@@ -1,3 +1,17 @@
+
 .home{
     cursor: pointer;
+    text-decoration: none;
+    color: gray;
+}
+.Collections{
+    text-decoration: none;
+    color: gray;
+}
+.item{
+    color: gray;
+}
+.topSection{
+    display: flex;
+    align-items: center;
 }

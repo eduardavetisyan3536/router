@@ -8,6 +8,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
+      <>
       <div className='container'>
       <nav>
         <div className="navLeft">
@@ -21,7 +22,9 @@ const Header = () => {
 
         </div>
       </nav>
+      
     </div>
+      </>
     </div>
   )
 }

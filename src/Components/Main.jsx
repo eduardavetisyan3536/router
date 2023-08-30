@@ -3,15 +3,16 @@ import Aside from "./Aside";
 import DataSection from "./DataSection";
 import DataAppend from "./DataAppend";
 import './main.css'
-import { useNavigate } from "react-router";
+import { useLocation } from "react-router";
+import { Link } from "react-router-dom";
 
 function Main() {
-  const navigate = useNavigate()
+  const loc = useLocation()
   return (
     <div className="container">
       <div className="topSection">
-        <p className="home" onClick={() => navigate('/router') }>Home</p>
-        <p className="Collections">/ Collections</p>
+        <Link className="home"  to="/router">Home </Link>
+        <p className="Collections">  / {loc.pathname.slice(8)} </p>
       </div>
       <div className="flexSections">
         <Aside />
