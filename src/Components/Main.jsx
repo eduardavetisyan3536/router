@@ -3,16 +3,14 @@ import Aside from "./Aside";
 import DataSection from "./DataSection";
 import DataAppend from "./DataAppend";
 import './main.css'
-import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 
 function Main() {
-  const loc = useLocation()
   return (
     <div className="container">
       <div className="topSection">
         <Link className="home"  to="/router">Home </Link>
-        <p className="Collections">  / {loc.pathname.slice(8)} </p>
+        <p className="Collections">  / Collections </p>
       </div>
       <div className="flexSections">
         <Aside />

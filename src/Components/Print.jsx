@@ -3,6 +3,8 @@ import data from "../data.json";
 import { useLocation, useParams } from "react-router";
 import "./print.css"
 import { Link } from "react-router-dom";
+
+
 const Print = () => {
   const loc = useLocation()
   const { productId } = useParams();
